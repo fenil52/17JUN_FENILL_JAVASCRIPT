@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Jost', sans-serif; */
+/* font-family: 'Lato', sans-serif !important; */
+}
+p,button,a,h3{
+  margin: 0 !important;  
+  font-family: 'Jost', sans-serif;
+}
+.space{
+  letter-spacing: 0.50px;
+}
+.fruit{
+  height: 58px !important;
+}
+input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  font-family: 'Lato', sans-serif !important;
+}
+.badge{
+  font-size: 12px !important;
+
+}
+.btn-fs{
+  font-size: 17px !important;
+}
+.fs-p{
+  font-size: 15px !important;
+}
+.slide-img{
+  width: 100% !important;
+  height:100vh !important;
+}
+.radious{
+  border-radius: 50px !important;
+  border: 2px solid rgb(110, 172, 10);
+  animation: border 4s infinite linear alternate-reverse;
+}
+.btn-radious{
+  border-radius: 50px !important;
+}
+.width{
+  width: 450px !important;
+
+}
+.padding{
+  padding: 16px 22px !important;
+  color:  #fff !important;
+}
+.position-main{
+  position: relative;
+
+}
+.position-div{
+  position: absolute !important;
+  z-index: 10;
+  top: 35% !important;
+  right: 49% !important;
+  width: 39% !important;
+}
+.pos-h1{
+  width: 70% !important;
+  color: rgb(38, 130, 7);
+}
+.pos-p{
+  font-family: 'Josefin Sans', sans-serif !important;
+  color: black;
+  background-color: #fff;
+  width: 68% !important;
+  border-radius: 50px !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  padding: 10px  10px!important;
+  font-weight: 1000 !important;
+  font-size: 22px !important;
+}
+.active{
+  background-color: green!important;
+}
+.bg-first{
+  background-color: #fdeeec;
+  height: auto !important;
+  width:  12% !important;
+  padding:  30px !important;
+}
+.img-card{
+  width: 70px !important;
+}
+.width-lemon{
+  width: 150px !important;
+}
+.img-lemon{
+  width: 70% !important;
+}
+.over{
+  overflow-x: scroll !important;
+  display: inline-flex !important;
+  width: 100% !important;
+  scrollbar-color: rgb(59, 163, 92) green!important;
+  padding-bottom: 40px !important;
+  scrollbar-width: 50px !important;
+}
+
+
+@keyframes border {
+  0% {
+      border-color: red;
+     
+  }
+  25% {
+      border-color: blue;
+     
+  }
+  50% {
+      border-color: green;
+      
+  }
+  75% {
+      border-color: orange;
+     
+  }
+  100% {
+      border-color: purple;
+      
+  }
+}
+
+@media only screen and (max-width:420px) {
+*{
+    overflow-x:hidden !important;
+  }
+  html{
+    font-size: 85% !important;
+  }
+  .bor-media{
+    border: none !important;
+  }
+}
+
+
+
+
+
+
+
+
